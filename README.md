@@ -1,14 +1,13 @@
 ﻿# Weather-Dash
  
 ## Description
-This repository contains an edited HTML and edited CSS file that were changed in order to to make the website follow certain criteria and work as intended. the assignments criteria were to create a daily planner that has time slots that change colors to represent the current, past, and future times, to be able to type in the planner and have your typed information saved onto your local storage, and to correctly use Jquery, HTML, and JavaScript elements. 
-## Installation
+This repository contains HTML, CSS, and JavaScript files that were written in order to demonstrate my knowledge of having the ability to make an API call to another websites library. I created the website using HTML and CSS and used thet JavaScript to make the API call to obtain information about the weather of different cities around the world.
 
 N/A
 
 ## Usage
 
-The usage of this webite is to be able to input your daily schedule onto your computer, have it save to your local storage, and have the colors of the planner change in the time slots to show you what time it currently is, the past times, and the future. 
+The usage of this webite is to be able to input a city of your choosing and have the API call fetch information about this city like the temperature, wind, and humidity. The webpage can also save recent searches of different cities and show the future weather conditions in the next days to come. 
 
 ## Website URL
 
