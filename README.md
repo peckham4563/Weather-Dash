@@ -3,6 +3,7 @@
 ## Description
 This repository contains HTML, CSS, and JavaScript files that were written in order to demonstrate my knowledge of having the ability to make an API call to another websites library. I created the website using HTML and CSS and used thet JavaScript to make the API call to obtain information about the weather of different cities around the world.
 
+## Installation
 N/A
 
 ## Usage
