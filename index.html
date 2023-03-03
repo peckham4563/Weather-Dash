@@ -18,6 +18,7 @@
             href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
         />
         <link rel="stylesheet" href="/Weather-Dash/Assets/style.css"/>
+    </head>
 
     <body>
         <header class="p-2 text-center text-white bg-primary">
@@ -27,10 +28,10 @@
 
         <section class="search-for-a-city">
             <h2><span id="search">Search for a City:</span></h2>
-            <h2><span id="search-bar"></span></h2>
-            <button 
-            id="search-button">Search<i class="fa-solid fa-floppy-disk"></i>
-            </button>
+            <input type="text" id="search-bar" placeholder="Enter city name">
+                <button 
+                    id="search-button">Search<i class="fa-solid fa-floppy-disk"></i>
+                </button>
 
         </section>
 
@@ -48,44 +49,42 @@
         <h2 class="forecast">5-day Forecast:</h2>
     <section class="parent">
         <section class="day-one-after">
-            <h3>Date</h3>
-            <h4>Emoji</h4>
-            <h4>Temp:</h4>
-            <h4>Wind:</h4>
-            <h4>Humidity:</h4>
+            <h3 class = "date"></h3>
+            <h4 class = "emoji"></h4>
+            <h4>Temp: <span class="day-1-temp"></span></h4>
+            <h4>Wind: <span class="day-1-current-wind"></span></h4>
+            <h4>Humidity: <span class="day-1-current-humidity"></span></h4>
         </section>
         <section class="day-two-after">
-            <h3>Date</h3>
-            <h4>Emoji</h4>
-            <h4>Temp:</h4>
-            <h4>Wind:</h4>
-            <h4>Humidity:</h4>
+            <h3 class = "date"></h3>
+            <h4 class = "emoji"></h4>
+            <h4>Temp: <span class="temp"></span></h4>
+            <h4>Wind: <span class="day-2-current-wind"></span></h4>
+            <h4>Humidity: <span class="day-2-current-humidity"></span></h4>
         </section>
         <section class="day-three-after">
-            <h3>Date</h3>
-            <h4>Emoji</h4>
-            <h4>Temp:</h4>
-            <h4>Wind:</h4>
-            <h4>Humidity:</h4>
+            <h3 class = "date"></h3>
+            <h4 class = "emoji"></h4>
+            <h4>Temp: <span class="temp"></span></h4>
+            <h4>Wind: <span class="day-3-current-wind"></span></h4>
+            <h4>Humidity: <span class="day-3-current-humidity"></span></h4>
         </section>
         <section class="day-four-after">
-            <h3>Date</h3>
-            <h4>Emoji</h4>
-            <h4>Temp:</h4>
-            <h4>Wind:</h4>
-            <h4>Humidity:</h4>
+            <h3 class = "date"></h3>
+            <h4 class = "emoji"></h4>
+            <h4>Temp: <span class="temp"></span></h4>
+            <h4>Wind: <span class="day-4-current-wind"></span></h4>
+            <h4>Humidity: <span class="day-4-current-humidity"></span></h4>
         </section>
         <section class="day-five-after">
-            <h3>Date</h3>
-            <h3>emoji</h3>
-            <h3>Temp:</h3>
-            <h3>Wind:</h3>
-            <h3>Humidity:</h3>
+            <h3 class = "date"></h3>
+            <h4 class = "emoji"></h4>
+            <h4>Temp: <span class="temp"></span></h4>
+            <h4>Wind: <span class="day-5-current-wind"></span></h4>
+            <h4>Humidity: <span class="day-5-current-humidity"></span></h4>
         </section>
     </section>
 
+    <script src="./Assets/script.js"></script>
+
     </body>
-    </head>
-
-
-            <script src="./Assets/script.js"></script>
